@@ -21,33 +21,33 @@
         </button>
       </div>
     </div>
-    <div
-      className="w-full px-10 pt-20 flex flex-row items-center justify-around mx-auto gap-x-20"
-    >
-      <ChoiceCard
-        src="../../../../public/guarantee.png"
-        alt="guarantee"
-        title="Best Price Guarantee"
-        description="A small river named Duren flows by their place and supplies"
-      />
-      <ChoiceCard
-        src="../../../../public/heart.png"
-        alt="heart"
-        title="Travellers Love Us"
-        description="A small river named Duren flows by their place and supplies"
-      />
-      <ChoiceCard
-        src="../../../../public/agent.png"
-        alt="agent"
-        title="Best Travel Agent"
-        description="A small river named Duren flows by their place and supplies"
-      />
-      <ChoiceCard
-        src="../../../../public/support.png"
-        alt="support"
-        title="Our Dedicated Support"
-        description="A small river named Duren flows by their place and supplies"
-      />
+    <div className="w-full py-20 flex flex-col justify-center items-center">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-16">
+        <ChoiceCard
+          src="../../../../public/guarantee.png"
+          alt="guarantee"
+          title="Best Price Guarantee"
+          description="A small river named Duren flows by their place and supplies"
+        />
+        <ChoiceCard
+          src="../../../../public/heart.png"
+          alt="heart"
+          title="Travellers Love Us"
+          description="A small river named Duren flows by their place and supplies"
+        />
+        <ChoiceCard
+          src="../../../../public/agent.png"
+          alt="agent"
+          title="Best Travel Agent"
+          description="A small river named Duren flows by their place and supplies"
+        />
+        <ChoiceCard
+          src="../../../../public/support.png"
+          alt="support"
+          title="Our Dedicated Support"
+          description="A small river named Duren flows by their place and supplies"
+        />
+      </div>
     </div>
   </div>
 </template>

@@ -9,6 +9,7 @@
       <Header />
       <Hero />
     </div>
+    <GroupTour />
     <Footer />
   </div>
 </template>
@@ -16,5 +17,6 @@
 <script setup>
 import Header from "../../components/Layout/Header.vue";
 import Hero from "./components/Hero.vue";
+import GroupTour from "./components/GroupTour.vue";
 import Footer from "../../components/Layout/Footer.vue";
 </script>
