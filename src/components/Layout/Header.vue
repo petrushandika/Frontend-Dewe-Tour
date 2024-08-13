@@ -1,19 +1,17 @@
 <template>
-  <div class="flex justify-between items-center">
+  <div className="py-5 flex justify-between items-center">
     <img
-      src="../../public/logo.png"
+      src="../../../public/logo.png"
       alt=""
-      className="w-48"
+      className="max-w-48"
     />
-    <div className="flex flex-row gap-5">
+    <div className="flex flex-row gap-x-5">
       <button
-        className="w-28 h-8 border border-white rounded-md text-white text-base bg-transparent"
+        className="w-24 h-10 bg-transparent border border-white text-white rounded"
       >
         Login
       </button>
-      <button
-        className="w-28 h-8 border border-orange-400 rounded-md text-white text-base bg-orange-400"
-      >
+      <button className="w-24 h-10 bg-yellow-400 text-white rounded">
         Register
       </button>
     </div>
