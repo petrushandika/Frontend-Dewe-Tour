@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomePage from "../pages/Home/HomePage.vue";
 import GroupTour from "../pages/Home/components/GroupTour.vue";
+import ProductPage from "../pages/Products/ProductPage.vue";
 
 const routes = [
   {
@@ -12,6 +13,11 @@ const routes = [
     path: "/grouptour",
     name: "Group Tour",
     component: GroupTour,
+  },
+  {
+    path: "/productdetail",
+    name: "Product Detail",
+    component: ProductPage,
   },
 ];
 

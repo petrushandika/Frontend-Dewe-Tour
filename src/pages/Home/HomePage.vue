@@ -5,7 +5,7 @@
       alt="background"
       className="absolute inset-0 object-cover w-full"
     />
-    <div class="relative z-10 min-h-screen flex flex-col px-24">
+    <div className="relative z-10 min-h-screen flex flex-col px-24">
       <Header />
       <Hero />
     </div>

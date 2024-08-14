@@ -7,7 +7,7 @@
       :alt="alt"
       className="w-16"
     />
-    <h3 class="text-black text-xl font-medium">{{ title }}</h3>
+    <h3 className="text-black text-xl font-medium">{{ title }}</h3>
     <p>{{ description }}</p>
   </div>
 </template>
