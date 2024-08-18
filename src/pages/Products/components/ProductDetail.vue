@@ -8,7 +8,6 @@
       </h1>
       <p className="text-lg text-gray-500 font-medium">Australia</p>
     </div>
-    <!-- Country Image -->
     <div className="flex flex-col gap-y-5">
       <img
         src="../../../../public/funtassie.png"
@@ -34,7 +33,6 @@
         />
       </div>
     </div>
-    <!-- Information Trip -->
     <div className="flex flex-col gap-y-5">
       <p className="text-black font-bold">Information Trip</p>
       <div className="w-full flex flex-row justify-between">
@@ -70,7 +68,6 @@
         />
       </div>
     </div>
-    <!-- Description -->
     <div className="flex flex-col">
       <p className="text-black font-bold">Description</p>
       <p className="text-sm">

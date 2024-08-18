@@ -37,10 +37,8 @@
           </div>
 
           <div className="flex items-center justify-start">
-            <p
-              className="bg-orange-100 text-orange-400 px-2 py-1 rounded mb-10"
-            >
-              Waiting Approve
+            <p className="bg-red-100 text-red-400 px-2 py-1 rounded mb-10">
+              Waiting Payment
             </p>
           </div>
 
