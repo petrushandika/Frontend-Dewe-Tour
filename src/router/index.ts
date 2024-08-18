@@ -3,12 +3,13 @@ import HomePage from "../pages/Home/HomePage.vue";
 import GroupTour from "../pages/Home/components/GroupTour.vue";
 import ProductPage from "../pages/Products/ProductPage.vue";
 import OrderPage from "../pages/Order/OrderPage.vue";
+import LoginPage from "../pages/Auth/LoginPage.vue";
 
 const routes = [
   {
     path: "/",
-    name: "Order",
-    component: OrderPage,
+    name: "Home",
+    component: LoginPage,
   },
   // {
   //   path: "/grouptour",
@@ -16,9 +17,14 @@ const routes = [
   //   component: GroupTour,
   // },
   // {
-  //   path: "/productdetail",
+  //   path: "/product/:id",
   //   name: "Product Detail",
   //   component: ProductPage,
+  // },
+  // {
+  //   path: "/order",
+  //   name: "Order",
+  //   component: OrderPage,
   // },
 ];
 

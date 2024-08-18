@@ -10,13 +10,13 @@
         <Header />
       </div>
     </div>
-    <OrderPending />
+    <OrderAwaiting />
     <Footer />
   </div>
 </template>
 
 <script setup>
 import Header from "../../components/Layout/Header.vue";
-import OrderPending from "./components/OrderPending.vue";
+import OrderAwaiting from "./components/OrderAwaiting.vue";
 import Footer from "../../components/Layout/Footer.vue";
 </script>

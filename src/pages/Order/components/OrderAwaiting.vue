@@ -66,7 +66,7 @@
         </div>
       </div>
     </div>
-    <div className="overflow-x-auto mb-10">
+    <div className="overflow-x-auto">
       <table className="min-w-full">
         <thead>
           <tr>
@@ -93,6 +93,13 @@
           </tr>
         </tbody>
       </table>
+    </div>
+    <div className="flex justify-end px-20 mb-5">
+      <button
+        className="text-white bg-orange-400 px-14 py-1 rounded outline-none"
+      >
+        PAY
+      </button>
     </div>
   </div>
 </template>
