@@ -6,12 +6,13 @@ import OrderPage from "../pages/Order/OrderPage.vue";
 import LoginPage from "../pages/Auth/LoginPage.vue";
 import RegisterPage from "../pages/Auth/RegisterPage.vue";
 import UserPage from "../pages/User/UserPage.vue";
+import OrderList from "../pages/Order/components/OrderList.vue";
 
 const routes = [
   {
     path: "/",
     name: "Home",
-    component: UserPage,
+    component: OrderList,
   },
   // {
   //   path: "/register",
@@ -37,6 +38,11 @@ const routes = [
   //   path: "/order",
   //   name: "Order",
   //   component: OrderPage,
+  // },
+  // {
+  //   path: "/user",
+  //   name: "User",
+  //   component: UserPage,
   // },
 ];
 
