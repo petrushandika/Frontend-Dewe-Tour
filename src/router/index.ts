@@ -5,23 +5,24 @@ import ProductPage from "../pages/Products/ProductPage.vue";
 import OrderPage from "../pages/Order/OrderPage.vue";
 import LoginPage from "../pages/Auth/LoginPage.vue";
 import RegisterPage from "../pages/Auth/RegisterPage.vue";
+import UserPage from "../pages/User/UserPage.vue";
 
 const routes = [
   {
     path: "/",
     name: "Home",
-    component: HomePage,
+    component: UserPage,
   },
-  {
-    path: "/register",
-    name: "Register",
-    component: RegisterPage,
-  },
-  {
-    path: "/login",
-    name: "Login",
-    component: LoginPage,
-  },
+  // {
+  //   path: "/register",
+  //   name: "Register",
+  //   component: RegisterPage,
+  // },
+  // {
+  //   path: "/login",
+  //   name: "Login",
+  //   component: LoginPage,
+  // },
   // {
   //   path: "/grouptour",
   //   name: "Group Tour",
