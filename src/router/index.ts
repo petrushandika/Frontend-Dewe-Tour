@@ -7,12 +7,13 @@ import LoginPage from "../pages/Auth/LoginPage.vue";
 import RegisterPage from "../pages/Auth/RegisterPage.vue";
 import UserPage from "../pages/User/UserPage.vue";
 import OrderList from "../pages/Order/components/OrderList.vue";
+import OrderApprove from "../pages/Order/components/OrderApprove.vue";
 
 const routes = [
   {
     path: "/",
     name: "Home",
-    component: OrderList,
+    component: OrderApprove,
   },
   // {
   //   path: "/register",
