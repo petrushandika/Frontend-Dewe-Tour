@@ -6,14 +6,24 @@
       className="max-w-48"
     />
     <div className="flex flex-row gap-x-5">
-      <button
-        className="w-24 h-10 bg-transparent border border-white text-white rounded"
+      <router-link
+        to="/login"
+        class="text-orange-400"
       >
-        Login
-      </button>
-      <button className="w-24 h-10 bg-yellow-400 text-white rounded">
-        Register
-      </button>
+        <button
+          className="w-24 h-10 bg-transparent border border-white text-white rounded"
+        >
+          Login
+        </button></router-link
+      >
+      <router-link
+        to="/register"
+        class="text-orange-400"
+      >
+        <button className="w-24 h-10 bg-yellow-400 text-white rounded">
+          Register
+        </button>
+      </router-link>
     </div>
   </div>
 </template>

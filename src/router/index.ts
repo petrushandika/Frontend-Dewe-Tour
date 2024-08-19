@@ -4,11 +4,22 @@ import GroupTour from "../pages/Home/components/GroupTour.vue";
 import ProductPage from "../pages/Products/ProductPage.vue";
 import OrderPage from "../pages/Order/OrderPage.vue";
 import LoginPage from "../pages/Auth/LoginPage.vue";
+import RegisterPage from "../pages/Auth/RegisterPage.vue";
 
 const routes = [
   {
     path: "/",
     name: "Home",
+    component: HomePage,
+  },
+  {
+    path: "/register",
+    name: "Register",
+    component: RegisterPage,
+  },
+  {
+    path: "/login",
+    name: "Login",
     component: LoginPage,
   },
   // {
