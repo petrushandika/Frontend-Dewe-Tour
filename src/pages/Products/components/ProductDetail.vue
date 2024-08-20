@@ -91,7 +91,7 @@
       <div className="flex flex-row gap-x-3 items-center">
         <button>
           <i
-            class="pi pi-minus"
+            className="pi pi-minus"
             style="
               font-size: 0.8rem;
               color: white;
@@ -104,7 +104,7 @@
         <span className="text-base">1</span>
         <button>
           <i
-            class="pi pi-plus"
+            className="pi pi-plus"
             style="
               font-size: 0.8rem;
               color: white;

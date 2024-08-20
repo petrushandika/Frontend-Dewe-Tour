@@ -8,7 +8,7 @@
     <div className="flex flex-row gap-x-5">
       <router-link
         to="/login"
-        class="text-orange-400"
+        className="text-orange-400"
       >
         <button
           className="w-24 h-10 bg-transparent border border-white text-white rounded"
@@ -18,7 +18,7 @@
       >
       <router-link
         to="/register"
-        class="text-orange-400"
+        className="text-orange-400"
       >
         <button className="w-24 h-10 bg-yellow-400 text-white rounded">
           Register
