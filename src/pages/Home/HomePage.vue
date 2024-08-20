@@ -9,7 +9,7 @@
       <Header />
       <Hero />
     </div>
-    <GroupTour />
+    <GroupTour title="Group Tour" />
     <Footer />
   </div>
 </template>

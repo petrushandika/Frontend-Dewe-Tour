@@ -1,9 +1,13 @@
 <template>
-  <div className="w-full flex flex-col justify-center items-center">
-    <h1 className="text-black text-3xl font-medium pb-20">Group Tour</h1>
-    <div
-      className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16 pb-20"
+  <div class="w-full flex flex-col justify-center items-center">
+    <h1
+      v-if="title"
+      class="text-black text-3xl font-medium pb-20"
     >
+      {{ title }}
+    </h1>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16 pb-20">
       <a href="">
         <TourCard
           src="../../../../public/funtassie.png"
@@ -64,4 +68,9 @@
 
 <script setup>
 import TourCard from "../../../components/Elements/TourCard.vue";
+import { defineProps } from "vue";
+
+const props = defineProps({
+  title: String,
+});
 </script>

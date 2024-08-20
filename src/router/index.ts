@@ -8,12 +8,13 @@ import RegisterPage from "../pages/Auth/RegisterPage.vue";
 import UserPage from "../pages/User/UserPage.vue";
 import OrderList from "../pages/Order/components/OrderList.vue";
 import OrderApprove from "../pages/Order/components/OrderApprove.vue";
+import ProductTrip from "../pages/Products/components/ProductTrip.vue";
 
 const routes = [
   {
     path: "/",
     name: "Home",
-    component: OrderApprove,
+    component: ProductTrip,
   },
   // {
   //   path: "/register",
