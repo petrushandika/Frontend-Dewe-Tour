@@ -9,13 +9,13 @@ import UserPage from "../pages/User/UserPage.vue";
 import OrderList from "../pages/Order/components/OrderList.vue";
 import OrderApprove from "../pages/Order/components/OrderApprove.vue";
 import ProductTrip from "../pages/Products/components/ProductTrip.vue";
-import ProductInput from "../pages/Products/components/ProductInput.vue";
+import ProductForm from "../pages/Products/components/ProducForm.vue";
 
 const routes = [
   {
     path: "/",
     name: "Home",
-    component: ProductInput,
+    component: ProductForm,
   },
   // {
   //   path: "/register",

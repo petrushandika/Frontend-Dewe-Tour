@@ -129,6 +129,6 @@
 </template>
 
 <script setup>
-import InformationCard from "../../../components/Elements/InformationCard.vue";
 import "primeicons/primeicons.css";
+import InformationCard from "../../../components/Elements/InformationCard.vue";
 </script>
